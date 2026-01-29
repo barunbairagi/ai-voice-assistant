@@ -3,7 +3,6 @@ from pydantic import BaseModel
 import pyttsx3
 import tempfile
 from fastapi.responses import FileResponse
-
 router = APIRouter()
 
 class TTSRequest(BaseModel):
